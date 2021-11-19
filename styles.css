@@ -8,17 +8,17 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: gray;
+  color:gray;
   background: #f7f5f0;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: lightgray;
 }
 a:hover {
-  color: #6633ff;
+  color: olivedrab;
 }
 
 /* Section Styles */
@@ -30,6 +30,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  
 }
 .nav {
   display: flex;
@@ -38,6 +39,7 @@ a:hover {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  
 }
 
 .nav .name {
@@ -57,7 +59,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/project\ background.jpg') no-repeat top center ;
+  background: url('images/resized-background.jpg') no-repeat center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -79,7 +81,7 @@ header .profile-image:hover {
 
 }
 .tag {
-  background-color: olive;
+  background-color: pink;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -87,7 +89,7 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: pink;
+  background-color:olive;
   color: white;
 }
 .card {
@@ -101,7 +103,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: darkmagenta;
 }
 
 ul.skills {
